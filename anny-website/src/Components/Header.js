@@ -1,32 +1,25 @@
-import { BrowserRouter, Route, NavLink, Router} from 'react-router-dom';
-import { Link, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
-import About from './AboutPage';
-import Home from '../App';
 
 
 function Header() {
   return (
     <div className="Header">
-
-      <Link to="/">Home</Link>
-      <Link to="/AboutPage">About</Link>
-      <Switch>
-              <Route component={About} exact path="/AboutPage" />
-              <Route component={Home} exact path="/" />
-      </Switch>
+      <h2 className="links_title">Anny Trépanier</h2>
+      <div className="link_container">
+        <div className="home_link">
+          <Link className="links" to="/"><p>Home</p></Link>
+        </div>
+        <div className="about_link">
+          <Link className="links" to="/about"><p>About</p></Link>
+        </div>
+        <div className="contact_link">
+          <Link className="links" to="/contact"><p>Contact Us</p></Link>
+        </div>
+      </div>
     </div>
   );
 }
-
-// export function AppRouter(){
-//   return(
-//     <Router>
-//     <Route path="/AboutPage" exact component={<About/>}/>
-//     <Route path="/" exact component={<Home/>}/>
-//     </Router>
-//   )
-// }
 
 
 export default Header;

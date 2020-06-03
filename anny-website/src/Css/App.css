@@ -1,13 +1,15 @@
-.App {
-  text-align: center;
-  background-color: beige;
-  width: 100%;
-  padding-bottom: 70%;
+header {
+    display: flex;
+    height: 5rem;
 }
 
-.AboutPage {
-  background-color: beige;
-  width: 100%;
-  padding-bottom: 100%;
+.root {
+    height: auto;
+    width: auto;
+}
+
+.browser_router {
+    height: auto;
+    width: auto;
 }
 
