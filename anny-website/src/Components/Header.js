@@ -5,7 +5,7 @@ import React from 'react';
 function Header() {
   return (
     <div className="Header">
-      <h2 className="links_title">Anny Trépanier</h2>
+      <Link className="links_title" to="/">Anny Trépanier</Link>
       <div className="link_container">
         <div className="home_link">
           <Link className="links" to="/"><p>Home</p></Link>
@@ -14,7 +14,7 @@ function Header() {
           <Link className="links" to="/about"><p>About</p></Link>
         </div>
         <div className="contact_link">
-          <Link className="links" to="/contact"><p>Contact Us</p></Link>
+          <Link className="links" to="/contact"><p>Contact</p></Link>
         </div>
       </div>
     </div>

@@ -29,6 +29,9 @@
 }
 
 .about_image2 {
-  height: 15rem;
-  width: 50%;
+  position: relative;
+  right: 35%;
+  bottom: 22rem;
+  width: 15%;
+
 }
