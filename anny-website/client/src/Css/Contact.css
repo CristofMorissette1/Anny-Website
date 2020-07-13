@@ -34,4 +34,22 @@ Form {
 .form-group {
   display: flex;
   flex-direction: column;
+  width: 33%;
+  margin-top: 1%;
 }
+
+Label {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+Input {
+  height: 2rem;
+  background-color: #d8d9da;
+}
+
+textarea {
+  height: 5rem;
+  background-color: #d8d9da;
+}
+

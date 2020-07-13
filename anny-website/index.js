@@ -29,7 +29,7 @@ app.post('/api/form', (req, res) => {
             requireTLS:true,//this parameter solved problem for me
             auth: {
             user: 'cristofmorissette@hotmail.com',
-            pass: 'Cristof123'
+            pass: 'Ihatestorms11'
             }
             });
 

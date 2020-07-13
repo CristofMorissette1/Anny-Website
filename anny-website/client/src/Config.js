@@ -1,7 +1,8 @@
 import firebase from 'firebase';
 
 
-export const firebaseConfig = {
+
+const firebaseConfig = {
     apiKey: "AIzaSyDKKdHZbUGZefcMB7pEy1VEM-Mhryxgz5g",
     authDomain: "anny-site-personelle.firebaseapp.com",
     databaseURL: "https://anny-site-personelle.firebaseio.com",
@@ -12,6 +13,5 @@ export const firebaseConfig = {
     measurementId: "G-K14RZ7XVVR"
   };
 
-  const FbApp = firebase.initializeApp(firebaseConfig)
-
-  export default FbApp
+const fire = firebase.initializeApp(firebaseConfig)
+export default fire; 

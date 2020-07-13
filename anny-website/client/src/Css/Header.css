@@ -36,6 +36,10 @@ p {
     margin: 0 4%;
 }
 
+.paintcraft_link {
+    margin: 0 4%;
+}
+
 .link_container {
     display: flex;
     width: 100%;

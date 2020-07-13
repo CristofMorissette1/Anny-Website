@@ -1,0 +1,21 @@
+.paintingCraftingPage {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPaintingCraftingPage {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introductionText {
+    width: 40%;
+}

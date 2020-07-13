@@ -23,15 +23,8 @@
 
 .about_image1 {
   position: relative;
-  width: 10%;
-  right: 35%;
-  bottom: 32rem;
-}
-
-.about_image2 {
-  position: relative;
-  right: 35%;
-  bottom: 22rem;
-  width: 15%;
-
+  width: 40%;
+  right: 50%;
+  bottom: 34rem;
+  margin-top: 2%
 }

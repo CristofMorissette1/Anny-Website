@@ -89,7 +89,7 @@ class ContactUsPage extends Component {
           </FormGroup>
           <FormGroup>
             <Label for="message">Message</Label>
-            <Input 
+            <textarea 
               type="textarea"
               name="message"
               onChange={this.handleChange} />

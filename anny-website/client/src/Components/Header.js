@@ -13,13 +13,15 @@ function Header() {
         <div className="gallery_link">
           <Link className="links" to="/gallery"><p>Gallery</p></Link>
         </div>
+        <div className="paintcraft_link">
+          <Link className="links" to="/painting&crafting"><p>Painting & Crafting</p></Link>
+        </div>
         <div className="about_link">
           <Link className="links" to="/about"><p>About</p></Link>
         </div>
         <div className="contact_link">
           <Link className="links" to="/contact"><p>Contact</p></Link>
         </div>
-
       </div>
     </div>
   );

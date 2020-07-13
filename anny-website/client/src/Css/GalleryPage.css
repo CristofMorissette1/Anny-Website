@@ -1,0 +1,30 @@
+.GalleryPage {
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.GalleryPage2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+img{
+    width:100%;
+    height: 23rem;
+}
+
+.galleryTitles {
+    position: absolute;
+    color: black;
+}
+
+.galleryAnchor {
+    width: 40%;
+    margin: 1%;
+}
