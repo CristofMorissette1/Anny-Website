@@ -1,0 +1,52 @@
+.Header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: gray;
+    width: 100%;
+}
+
+p {
+    color: black;
+    font-weight: 500;
+  }
+
+.links_title {
+    width: 40%;
+    margin-left: 20%;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.home_link {
+    margin: 0 4%;
+}
+
+.about_link {
+    margin: 0 4%;
+}
+
+.project_link {
+    margin: 0 4%;
+}
+
+.contact_link {
+    margin: 0 4%;
+}
+
+.paintcraft_link {
+    margin: 0 4%;
+}
+
+.link_container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 25%;
+}

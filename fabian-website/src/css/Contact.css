@@ -1,0 +1,54 @@
+.ContactUsPage {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 100%;
+  }
+  
+  .contact_header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact_header_text_container {
+    width: 41%;
+  }
+  
+  .contact_header_title {
+    font-size: 150%;
+    font-weight: 470;
+  }
+  
+  .contact_header_text {
+    font-weight: 350;
+  }
+  
+  Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-top: 1%;
+  }
+  
+  Label {
+    font-size: 100%;
+    font-weight: 400;
+  }
+  
+  Input {
+    height: 2rem;
+    background-color: #d8d9da;
+  }
+  
+  textarea {
+    height: 5rem;
+    background-color: #d8d9da;
+  }

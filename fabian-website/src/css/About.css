@@ -1,0 +1,30 @@
+.AboutPage {
+    background-color: beige;
+    width: 100%;
+  }
+
+.about_title {
+  font: Monospace, Georgia;
+  font-size: 25px;
+  font-weight: 150;
+}
+
+.AboutPage_container {
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_description {
+  width: 40%;
+}
+
+.about_image1 {
+  position: relative;
+  width: 40%;
+  right: 50%;
+  bottom: 34rem;
+  margin-top: 2%
+}
